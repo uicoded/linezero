@@ -1,0 +1,22 @@
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+h1 {
+  width: 180px;
+  height: 40px;
+  width: 100%;
+  background-image: url('../img/linezero_180x40.png');
+  background-repeat: no-repeat;
+  background-color: #1A1816;
+  margin-bottom: 1em;
+
+
+}

@@ -1,0 +1,44 @@
+{
+  "name": "LineZero",
+  "version": "1.0.0",
+  "description": "Web Starter",
+  "private": "true",
+  "devDependencies": {
+    "glob": "~3.2.8",
+    "grunt": "~0.4.1",
+    "grunt-autoprefixer": "~0.4.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-connect": "~0.5.0",
+    "grunt-contrib-cssmin": "~0.7.0",
+    "grunt-contrib-imagemin": "~0.1.2",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-contrib-sass": "~0.5.0",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-jscs": "^0.7.1",
+    "grunt-markdown": "^0.6.1",
+    "karma": "^0.12.24",
+    "karma-chrome-launcher": "^0.1.5",
+    "karma-coverage": "^0.2.6",
+    "karma-jasmine": "^0.1.5",
+    "karma-phantomjs-launcher": "^0.1.4"
+  },
+  "dependencies": {
+    "load-grunt-tasks": "^0.2.1"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "start": "grunt build-and-connect",
+
+    "pretest": "npm install",
+    "test": "node node_modules/karma/bin/karma start test/karma-conf.js --single-run",
+
+    "preupdate-webdriver": "npm install",
+    "update-webdriver": "webdriver-manager update",
+    "postupdate-webdriver": "sleep 1",
+
+    "pree2e-test": "npm run update-webdriver",
+    "e2e-test": "protractor test/protractor-conf.js"
+
+  }
+}
