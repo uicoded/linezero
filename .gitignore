@@ -1,6 +1,5 @@
 .DS_Store
 .tmp
-workspace.xml
 .idea
 gradle-builds/build
 gradle-builds/.gradle
@@ -9,7 +8,6 @@ gradle-builds/.gradle
 .buildpath
 *.ipr
 *.iws
-*.iml
 *.xcuserdatad
 
 # App Specific
