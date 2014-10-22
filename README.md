@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/uicoded/linezero.svg?branch=master)](https://travis-ci.org/uicoded/linezero)
+
 ## Purpose
 
 LineZero is battle ground bootstrap for web projects.
