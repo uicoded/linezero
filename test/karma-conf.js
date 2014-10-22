@@ -38,10 +38,12 @@ module.exports = function (config) {
 
     // optionally, configure the reporter
     coverageReporter: {
-      type: 'text',
+      // type: 'text',
       // file: 'output.txt'
       // type: 'html',
-      dir: 'test-report/coverage/'
+      type: 'lcov',
+      dir: 'test-report/coverage/',
+      subdir: 'joined-report'  // otherwise it uses the Browser name which is fine but not for setting CI
     },
 
     // test results reporter to use

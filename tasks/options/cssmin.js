@@ -4,4 +4,4 @@ module.exports = {
       'build/assets/css/min/global.css': ['build/assets/css/pref/global.css']
     }
   }
-}
+};

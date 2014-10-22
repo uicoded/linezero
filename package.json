@@ -15,6 +15,7 @@
     "grunt-contrib-sass": "~0.5.0",
     "grunt-contrib-uglify": "~0.2.2",
     "grunt-contrib-watch": "~0.5.3",
+    "grunt-coveralls": "^1.0.0",
     "grunt-jscs": "^0.7.1",
     "grunt-markdown": "^0.6.1",
     "karma": "^0.12.24",
@@ -29,16 +30,12 @@
   "scripts": {
     "prestart": "npm install",
     "start": "grunt build-and-connect",
-
     "pretest": "npm install",
     "test": "node node_modules/karma/bin/karma start test/karma-conf.js --single-run",
-
     "preupdate-webdriver": "npm install",
     "update-webdriver": "webdriver-manager update",
     "postupdate-webdriver": "sleep 1",
-
     "pree2e-test": "npm run update-webdriver",
     "e2e-test": "protractor test/protractor-conf.js"
-
   }
 }
