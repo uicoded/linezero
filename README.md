@@ -4,9 +4,9 @@
 ## Purpose
 
 LineZero is battle ground bootstrap for web projects.
- 
-It rests on [Node](http://nodejs.org) and [Grunt](http://www.gruntjs.org/) shoulders which should provide solid tools for developer tasks.
-For HTML, CSS development there is [Normalize.css](http://necolas.github.io/normalize.css/) included.
+
+It uses [Node](http://nodejs.org) and [Grunt](http://www.gruntjs.org/) for development tasks and includes
+[Normalize.css](http://necolas.github.io/normalize.css/) for bottom line CSS reset.
 Tests are run by [Karma](http://karma-runner.github.io) and [Protractor](http://angular.github.io/protractor/#/).
 
 That's it.
@@ -16,7 +16,7 @@ Reevaluate your own LineZero after some time.
 
 ## Code Style
 
-Follows [AirBnb](https://github.com/airbnb/javascript) style with some exceptions, Read `.editorconfig`, `.jshintrc` and `.jscsrc`.
+Follows [AirBnb](https://github.com/airbnb/javascript) style with some exceptions.
 
 
 ## Run With NPM
