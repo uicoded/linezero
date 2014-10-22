@@ -70,3 +70,6 @@ Follows [AirBnb](https://github.com/airbnb/javascript) style with some exception
   `protractor test/protractor-conf.js` runs the testruner. (make sure the dev server is running)
 
 
+## License
+
+MIT
