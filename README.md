@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/uicoded/linezero.svg?branch=master)](https://travis-ci.org/uicoded/linezero)
+[![Coverage Status](https://coveralls.io/repos/uicoded/linezero/badge.png)](https://coveralls.io/r/uicoded/linezero)
 
 ## Purpose
 
