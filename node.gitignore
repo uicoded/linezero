@@ -16,7 +16,7 @@ gradle-builds/.gradle
 .sass-cache
 dist
 build
-test_report
+test-report
 node_modules
 bower_components
 npm-debug.log
