@@ -1,0 +1,24 @@
+.DS_Store
+.tmp
+workspace.xml
+.idea
+gradle-builds/build
+gradle-builds/.gradle
+.gradle
+.project
+.buildpath
+*.ipr
+*.iws
+*.iml
+*.xcuserdatad
+
+# App Specific
+.sass-cache
+dist
+build
+test-report
+node_modules
+bower_components
+npm-debug.log
+Gemfile
+Gemfile.lock
